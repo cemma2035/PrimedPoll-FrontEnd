@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.za-forgetBody {
+    height: 100vh;
+    background-image: linear-gradient(90deg, #f58731 0%, #f58731 35%, rgba(255, 255, 255) 0%);
+    background-size: 100%;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.za-forgetForm {
+    height: 60vh;
+    background-image: inherit;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0%;
+}
+.za-submitBtn {
+    background-color: #f58731;
+    color: white;
+    font-weight: bold;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+
+.za-form input {
+    border-radius: 20px;
+}
