@@ -4,7 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .ec_tiny-text {
     font-size: 10px;
 }
@@ -20,6 +22,15 @@
 .ec_text-grey {
     color: grey;
 }
+.ec_brand-bg {
+    background-color: #f58731;
+}
+.white-bg{
+    background-color:white;
+}
+.ec_brand-color {
+    color: #f58731;
+}
 
 /* Sign In Page */
 .ec_sign-in-body {}
@@ -30,8 +41,7 @@
     background-image: linear-gradient(90deg, #f58731 0%, #f58731 35%, rgba(255, 255, 255) 0%);
     background-size: 100%;
     position: relative;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
 }
 
 .ec_signin-form {
@@ -69,9 +79,7 @@
     border-radius: 20px;
 }
 
-.ec_brand-color {
-    color: #f58731;
-}
+
 
 .ec_form a {
     color: #f58731;
@@ -89,4 +97,49 @@
 
 .ec_confirm_password {
     margin-bottom: 0px;
+}
+/* Profile Page */
+#user-image{
+    border: 1px solid #f58731;
+    padding:5%;
+    border-radius:100px;
+}
+.user-info{
+    margin-top:20%;
+}
+.ec_border-right-brand{
+    border-right:1px solid white;
+    height:100vh;
+    
+}
+.poll-listing{
+    height:35vh;
+}
+.poll-listing a[aria-selected="false"]{
+    color: #f58731;
+}
+.poll-listing a[aria-selected="true"] {
+    color: grey;
+}
+#interests-list{
+    height:50vh;
+}
+.interest{
+    color:white;
+    background-color: #f58731;
+    padding: 8px 0px;
+    border-radius:5px;
+}
+.delete-interest{
+    display:none;
+}
+.interest:hover .interest-words{
+    display: none;
+} 
+.interest:hover .delete-interest{
+    display:block;
+}
+.bg-white{
+    background-color: white;
+    border: 1px solid #f58731;
 }
