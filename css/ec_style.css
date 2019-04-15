@@ -31,9 +31,16 @@ body{
 .ec_brand-color {
     color: #f58731;
 }
+/* .ec_primedpoll-nav{
+    border-bottom: 1px solid #f58731;
+} */
 
 /* Sign In Page */
-.ec_sign-in-body {}
+.ec_profile-body {
+    max-height:100%;
+    overflow-y:hidden;
+}
+
 
 .ec_auth-body {
     height: 100vh;
@@ -105,7 +112,7 @@ body{
     border-radius:100px;
 }
 .user-info{
-    margin-top:20%;
+    margin-top:12%;
 }
 .ec_border-right-brand{
     border-right:1px solid white;
@@ -130,16 +137,39 @@ body{
     padding: 8px 0px;
     border-radius:5px;
 }
+.edit-interest {
+    color: white;
+    background-color: #f58731;
+    padding: 8px 0px;
+    border-radius: 5px;
+}
 .delete-interest{
     display:none;
 }
-.interest:hover .interest-words{
+.edit-interest:hover .edit-interest-words{
     display: none;
 } 
-.interest:hover .delete-interest{
+.edit-interest:hover .delete-interest{
     display:block;
 }
 .bg-white{
     background-color: white;
     border: 1px solid #f58731;
+}
+.user-info input{
+    border:1px solid #f58931;
+    border-radius:5px;
+    padding:10px 10px;
+}
+.user-info input::placeholder{
+    font-size: 16px;
+}
+.user-info textarea {
+    border: 1px solid #f58931;
+    border-radius: 5px;
+}
+#ec_edit-btn{
+    position:relative;
+    top: 50;
+    left: 30;
 }

@@ -12,11 +12,44 @@
 </head>
 
 <body class="ec_profile-body">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg ec_primedpoll-nav navbar-light">
+        <a class="ec_text-brand " href="dashboard.html">Primedpoll</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-font navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-font ml-auto nav-utility">
+                <li class="nav-item active mx-3">
+                    <span class="ec_text-brand">Feed</span>
+                </li>
+                <li class="nav-item mx-3">
+                    <span class="ec_text-brand">Notifications</span>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                    <span class="ec_text-brand">Settings</span>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                    <img src="/images/profile-default.svg" style="width: 20px">
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="container-fluid ec_profile-content">
         <div class="row">
             <div class="col-5 ec_border-right-brand ec_brand-bg">
+                <!-- <img src="/images/pencil-white.svg" style="width:20px"> -->
+                <!-- <div class="edit-profile col-12 text-right">
+                    <button class="btn btn-warning mt-5">Edit</button>
+                </div> -->
                 <div class="col-12 user-info text-center">
+
                     <img id="user-image" class="white-bg" src="/images/profile-default.svg" style="width:180px">
+                    <img src="/images/pencil-white.svg" style="width:20px">
                     <h4 id="username" class="mb-2 mt-4 text-white">Wanda Maximoff</h4>
                     <p id="user-bio" class="mt-4 mx-auto col-10 text-white">A short user created bio can go here along
                         with
@@ -35,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7">
+            <div class="col-7 ec_poll-info">
                 <div class="poll-listing border border-top-0 mt-3">
                     <nav>
                         <div class="nav nav-tabs col-12" id="nav-tab" role="tablist">
@@ -64,63 +97,63 @@
                         <div id="package" class="row mt-3 col-12 mx-auto">
                             <div class="interest text-center mt-2 ml-3 col-3 px-0">
                                 <span class="interest-words">Art</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> 
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">  -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Architecture</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Soccer</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-3 col-3 px-0">
                                 <span class="interest-words">Geography</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                               <span class="interest-words">Sports</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Politics</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-3 col-3 px-0">
                                 <span class="interest-words">Music</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Entertainment</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Culture</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-3 col-3 px-0">
                                 <span class="interest-words">Technology</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Space</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Travel</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-3 col-3 px-0">
                                 <span class="interest-words">Nigeria</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
                             <div class="interest text-center mt-2 ml-5 col-3 px-0">
                                 <span class="interest-words">Photography</span>
-                                <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto">
+                                <!-- <img src="images/delete-interest.svg" style="width: 20px" class="delete-interest mx-auto"> -->
                             </div>
-                            <div class="interest bg-white text-center mt-2 ml-5 col-3 px-0">
+                            <!-- <div class="interest bg-white text-center mt-2 ml-5 col-3 px-0">
                                 <img src="images/add-interest-brand.svg" style="width:20px">
-                            </div>
+                            </div> -->
                         </div>
                          
                     </div>
