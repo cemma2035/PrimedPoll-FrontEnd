@@ -25,20 +25,28 @@ body{
 .ec_brand-bg {
     background-color: #f58731;
 }
-.white-bg{
+.ec_white-bg{
     background-color:white;
 }
-.ec_brand-color {
+.ec_text-brand {
     color: #f58731;
 }
-/* .ec_primedpoll-nav{
-    border-bottom: 1px solid #f58731;
-} */
+.ec_border-grey{
+    border:1px solid grey;
+}
+.ec_primedpoll-nav{
+    height:8vh;
+}
+.scroller {
+    overflow-y: scroll !important;
+    scrollbar-color: #f58731 #ffffff;
+    scrollbar-width: thin;
+
+}
 
 /* Sign In Page */
 .ec_profile-body {
     max-height:100%;
-    overflow-y:hidden;
 }
 
 
@@ -107,17 +115,33 @@ body{
 }
 /* Profile Page */
 #user-image{
-    border: 1px solid #f58731;
+    
     padding:5%;
     border-radius:100px;
+    cursor:pointer;
+}
+#user-image:hover{
+    filter:brightness(90%)
+}
+.edit-image-btn{
+    display:none;
+    position: absolute;
+    top:47%;
+    left:47%;
+}
+#upload-image-label:hover .edit-image-btn {
+    display:block;
 }
 .user-info{
-    margin-top:12%;
+    margin-top:7%;
 }
 .ec_border-right-brand{
     border-right:1px solid white;
     height:100vh;
     
+}
+.ec_border-brand{
+    border:1px solid #f58731;
 }
 .poll-listing{
     height:35vh;
@@ -129,7 +153,8 @@ body{
     color: grey;
 }
 #interests-list{
-    height:50vh;
+    height:52vh;
+    overflow-y: scroll;
 }
 .interest{
     color:white;
@@ -168,8 +193,19 @@ body{
     border: 1px solid #f58931;
     border-radius: 5px;
 }
-#ec_edit-btn{
-    position:relative;
-    top: 50;
-    left: 30;
+.ec_edit-btn{
+    border-radius: 20px;
 }
+/* .upload-box{
+    background: red;
+    overflow: hidden;
+    display: inline-block;
+}
+.upload-box input[type=file]{
+    position:absolute;
+    top:0;
+    left:0;
+} */
+#editForm .form-group{
+    margin-bottom: 0.5rem;
+} 
