@@ -5,6 +5,7 @@
     overflow: hidden;
 }
 
+
 .za-forgetBody {
     height: 100vh;
     background-image: linear-gradient(90deg, #f58731 0%, #f58731 35%, rgba(255, 255, 255) 0%);
@@ -32,9 +33,14 @@
     border-radius: 20px;
 }
 
+.za-forgetColor {
+    color: #f58731;
+}
+
 .za-form input {
     border-radius: 20px;
 }
+
 
 .za-completeRegistration {
     height: 100vh;
@@ -42,6 +48,10 @@
     background-size: 100%;
     position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#phoneNumber {
+    width: 23vw;
 }
 
 .za-firstRow {
@@ -87,9 +97,10 @@
 }
 
 .categBorder {
+    background-color: white;
     border: 2px solid #eee;
     height: 60vh;
-    width: 80%;
+    width: 70%;
     position: relative;
     left: 10%;
     top: -1.3em;
@@ -106,11 +117,42 @@
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .categ {
-        top: 5em;
+        top: 0.2em;
         position: relative;
-        color: #000000;
+        color: #ffffff;
     }
-    
+    .category {
+        color: #ffffff;
+        background-color: #f58731;
+        border-radius: 5px;
+    }
+    .za-completeRegistration {
+        background-image: linear-gradient(90deg, #f58731 0%, #f58731 35%, rgb(245, 135, 49) 0%);
+    }
+    .btnn {
+        left: 10%;
+        position: relative;
+    }
+    #phoneNumber {
+        width: 70vw;
+    }
+
+    .za-forgetBody {
+        background-image: linear-gradient(90deg, #f58731 0%, #f58731 35%, rgb(245, 135, 49) 0%);
+    }
+    .za-forgetColor {
+        color: #ffffff;
+    }
+
+}
+.iti-flag {
+    background-image: url("../intl-tel-input-15.0.0/build/img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti-flag {
+      background-image: url("../intl-tel-input-15.0.0/build/img/flags@2x.png");
+    }
 }
